@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+/* common css */
+.home{
+    width: 650px;
+    padding: 20px;
+    background-color: burlywood;
+    margin: 27vh auto;
+    position: relative;
+}
+.home h1{
+    text-transform: uppercase;
+    color: rgb(230, 142, 27);
+}
+
+.home .down i{
+	font-size: 20px;
+	color: rgb(43, 43, 43);
+	margin-right: 20px;
+	position: absolute;
+	top: 27px;
+	left: 610px;
+}
+.home .up i {
+    font-size: 20px;
+    color: rgb(43, 43, 43);
+    margin-right: 20px;
+    position: absolute;
+    top: 27px;
+    left: 554px;
+}
+.home .both i {
+    font-size: 20px;
+    color: rgb(43, 43, 43);
+    margin-right: 20px;
+    position: absolute;
+    top: 27px;
+    left: 510px;
+}
+.home p{
+    color: rgb(56, 56, 56);
+    text-transform: capitalize;
+    font-size: 20px;
+    text-align: right;
+}
